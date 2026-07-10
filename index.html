@@ -161,7 +161,7 @@ hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
   <span class="badge">MXCD11</span>
   <h1>Bitácora diaria</h1>
   <div class="hdr-btns">
-    <button class="hbtn" onclick="openM('api')">⚙️ API Key</button>
+    <button class="hbtn" onclick="openM('api')">⚙️ Gemini Key</button>
     <button class="hbtn" onclick="openM('gh')">☁️ GitHub</button>
     <button class="hbtn" id="gmail-hbtn" onclick="handleGmailBtn()">
       <span class="gdot" id="gmail-dot"></span>
@@ -173,11 +173,11 @@ hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
 <!-- MODAL: API KEY -->
 <div class="mbg" id="m-api">
   <div class="modal">
-    <h2>Clave de Anthropic</h2>
-    <p class="sub">Necesaria para reformular bitácoras con IA. Se guarda solo en tu navegador.</p>
-    <div class="info">Obtén tu clave en <code>console.anthropic.com</code> → API Keys</div>
+    <h2>Clave de Gemini</h2>
+    <p class="sub">Necesaria para reformular bitácoras con IA (Gemini). Se guarda solo en tu navegador.</p>
+    <div class="info">Obtén tu clave en <code>aistudio.google.com</code> → ícono de llave → Get API key</div>
     <label>API Key</label>
-    <input type="password" id="ak-inp" placeholder="sk-ant-...">
+    <input type="password" id="ak-inp" placeholder="AIzaSy...">
     <div class="mbtns">
       <button class="btn bg2 bsm" onclick="closeM('api')">Cancelar</button>
       <button class="btn bb bsm" onclick="saveAk()">Guardar</button>
@@ -747,20 +747,20 @@ async function reformular(){
   document.getElementById('opts').innerHTML='';
   document.getElementById('secf').style.display='none';
   try{
-    const res=await fetch('https://api.anthropic.com/v1/messages',{
+    const res=await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${ak}`,{
       method:'POST',
-      headers:{'Content-Type':'application/json','x-api-key':ak,'anthropic-version':'2023-06-01','anthropic-dangerous-direct-browser-calls':'true'},
-      body:JSON.stringify({model:'claude-sonnet-4-6',max_tokens:1000,messages:[{role:'user',content:
+      headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({contents:[{parts:[{text:
 `Eres asistente de redacción para Andre Jael Castillo Diaz, operador de TI en MXCD11 (Mercado Libre México).
 Reformula en 3 versiones para correo al equipo.
 REGLAS: iniciar con "Hola Team," / terminar con "Saludos,\nAndre Jael Castillo Diaz" / profesional pero cálido / conservar info técnica.
 Opción 1: directa. Opción 2: detallada. Opción 3: casual/narrativa.
 SOLO JSON sin markdown: {"opciones":["texto1","texto2","texto3"]}
-Bitácora:\n${txt}`}]})
+Bitácora:\n${txt}`}]}]})
     });
     if(!res.ok){const err=await res.json().catch(()=>({}));throw new Error(err.error?.message||'HTTP '+res.status);}
     const data=await res.json();
-    const raw=(data.content||[]).find(b=>b.type==='text')?.text||'';
+    const raw=data.candidates?.[0]?.content?.parts?.[0]?.text||'';
     _opts=JSON.parse(raw.replace(/```json|```/g,'').trim()).opciones||[];
     document.getElementById('lopt').style.display='none';
     renderOpts(_opts);

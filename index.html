@@ -18,52 +18,39 @@
 }
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--t);min-height:100vh;font-size:14px;line-height:1.6}
 
-/* HEADER */
 .hdr{background:var(--b);color:#fff;padding:0 1.25rem;display:flex;align-items:center;gap:10px;height:50px;position:sticky;top:0;z-index:200}
 .badge{background:var(--y);color:var(--b);font-size:11px;font-weight:700;padding:2px 10px;border-radius:20px;letter-spacing:.06em}
 .hdr h1{font-size:14px;font-weight:500;flex:1}
-.hdr-btns{display:flex;gap:6px;align-items:center}
-.hbtn{display:flex;align-items:center;gap:4px;font-size:11px;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:6px;padding:4px 9px;color:#fff;cursor:pointer;font-family:inherit}
+.hbtn{display:flex;align-items:center;gap:4px;font-size:11px;background:rgba(255,255,255,.13);border:1px solid rgba(255,255,255,.22);border-radius:6px;padding:4px 10px;color:#fff;cursor:pointer;font-family:inherit}
 .hbtn:hover{background:rgba(255,255,255,.22)}
-.gdot{width:7px;height:7px;border-radius:50%;background:#ff5252}
-.gdot.ok{background:#4caf50}
-.gdot.pend{background:var(--y);animation:blink 1s infinite}
-@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
 
-/* MODALS */
 .mbg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:600;align-items:center;justify-content:center;padding:1rem}
 .mbg.open{display:flex}
-.modal{background:#fff;border-radius:14px;padding:1.5rem;width:min(460px,100%);box-shadow:0 12px 40px rgba(0,0,0,.2);max-height:90vh;overflow-y:auto}
+.modal{background:#fff;border-radius:14px;padding:1.5rem;width:min(440px,100%);box-shadow:0 12px 40px rgba(0,0,0,.2)}
 .modal h2{font-size:16px;font-weight:600;margin-bottom:6px}
 .modal .sub{font-size:13px;color:var(--t2);margin-bottom:14px;line-height:1.6}
 .mbtns{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
 .info{background:rgba(45,50,119,.07);border:1px solid rgba(45,50,119,.15);border-radius:var(--r);padding:9px 13px;font-size:12px;color:var(--b);line-height:1.6;margin-bottom:12px}
-.warn{background:var(--amb);border:1px solid #f5c842;border-radius:var(--r);padding:9px 13px;font-size:12px;color:var(--am);line-height:1.6;margin-bottom:12px}
 code{font-family:monospace;font-size:11px;background:rgba(0,0,0,.07);padding:1px 5px;border-radius:4px}
 
-/* LAYOUT */
-.wrap{max-width:800px;margin:0 auto;padding:1.25rem 1rem 4rem}
+.wrap{max-width:760px;margin:0 auto;padding:1.25rem 1rem 4rem}
 
-/* TABS */
-.tabs{display:flex;border-bottom:1.5px solid var(--br);margin-bottom:1.25rem;overflow-x:auto}
-.tab{padding:8px 16px;font-size:13px;border:none;background:none;color:var(--t2);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1.5px;font-family:inherit;white-space:nowrap;flex-shrink:0}
+.tabs{display:flex;border-bottom:1.5px solid var(--br);margin-bottom:1.25rem}
+.tab{padding:8px 18px;font-size:13px;border:none;background:none;color:var(--t2);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1.5px;font-family:inherit}
 .tab.on{color:var(--b);border-bottom-color:var(--b);font-weight:500}
 .tab:hover:not(.on){color:var(--t)}
 .pane{display:none}
 .pane.on{display:block}
 
-/* CARD */
 .card{background:var(--s);border:1px solid var(--br);border-radius:12px;padding:1.15rem 1.25rem;margin-bottom:1rem}
 .ctitle{font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.07em;margin-bottom:10px}
 
-/* FORM */
 label{font-size:13px;color:var(--t2);display:block;margin-bottom:4px}
 textarea,input[type=text],input[type=email],input[type=password]{width:100%;border:1px solid var(--br);border-radius:var(--r);padding:9px 11px;font-size:14px;font-family:inherit;background:var(--s2);color:var(--t);transition:border-color .15s,box-shadow .15s}
-textarea{resize:vertical;min-height:100px;line-height:1.65}
+textarea{resize:vertical;min-height:110px;line-height:1.65}
 textarea:focus,input:focus{outline:none;border-color:var(--b);box-shadow:0 0 0 3px rgba(45,50,119,.1);background:#fff}
 textarea::placeholder,input::placeholder{color:var(--t3)}
 
-/* BUTTONS */
 .btn{display:inline-flex;align-items:center;gap:5px;padding:8px 15px;border-radius:var(--r);border:1px solid var(--br2);background:#fff;color:var(--t);font-size:13px;font-family:inherit;cursor:pointer;transition:background .12s;white-space:nowrap}
 .btn:hover{background:var(--bg)}
 .btn:active{transform:scale(.98)}
@@ -77,40 +64,33 @@ textarea::placeholder,input::placeholder{color:var(--t3)}
 .bg2:hover{background:var(--bg);color:var(--t);border-color:var(--br)}
 .bdel{border-color:transparent;color:var(--rd);background:transparent}
 .bdel:hover{background:var(--rdb)}
-.bgn{background:var(--gnb);color:var(--gn);border-color:transparent}
-.bgn:hover{background:#c5eedd}
 .brow{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 
-/* OPTIONS */
-.opt{border:1px solid var(--br);border-radius:var(--r);padding:12px;margin-bottom:10px;background:var(--s2)}
+.opt{border:1px solid var(--br);border-radius:var(--r);padding:12px;margin-bottom:10px;background:var(--s2);transition:border-color .15s}
 .opt:hover{border-color:var(--b)}
 .onum{font-size:11px;font-weight:600;color:var(--b);background:rgba(45,50,119,.09);padding:1px 9px;border-radius:20px;display:inline-block;margin-bottom:8px}
 .obody{font-size:13px;white-space:pre-wrap;line-height:1.7;margin-bottom:10px}
 
-/* STATUS */
 .st{display:inline-flex;align-items:center;gap:6px;padding:5px 11px;border-radius:var(--r);font-size:12px}
 .ok2{background:var(--gnb);color:var(--gn)}
 .er{background:var(--rdb);color:var(--rd)}
 .wa{background:var(--amb);color:var(--am)}
 
-/* SPINNER */
 .sp{width:14px;height:14px;border:2px solid var(--br2);border-top-color:var(--b);border-radius:50%;animation:spin .65s linear infinite;display:inline-block;flex-shrink:0}
 @keyframes spin{to{transform:rotate(360deg)}}
 .lrow{display:flex;align-items:center;gap:10px;padding:1.25rem 0;color:var(--t2);font-size:13px}
 
-/* CHIPS */
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .chip{display:inline-flex;align-items:center;gap:4px;background:var(--s2);border:1px solid var(--br);border-radius:20px;padding:3px 10px 3px 12px;font-size:12px;color:var(--t2)}
 .cx{background:none;border:none;cursor:pointer;color:var(--t3);font-size:15px;line-height:1;padding:0 2px}
 .cx:hover{color:var(--rd)}
 
-/* HISTORIAL BITÁCORA */
 .hi{border:1px solid var(--br);border-radius:var(--r);overflow:hidden;margin-bottom:8px}
 .hih{display:flex;align-items:center;gap:10px;padding:10px 13px;background:var(--s2);cursor:pointer}
 .hih:hover{background:var(--bg)}
 .him{flex:1;min-width:0}
-.hid2{font-size:11px;color:var(--t3)}
-.his2{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hid{font-size:11px;color:var(--t3)}
+.his{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .hitag{font-size:11px;font-weight:500;padding:2px 8px;border-radius:20px;white-space:nowrap;flex-shrink:0}
 .tn{background:rgba(45,50,119,.1);color:var(--b)}
 .tr{background:rgba(255,214,0,.3);color:#5a4a00}
@@ -118,159 +98,71 @@ textarea::placeholder,input::placeholder{color:var(--t3)}
 .hib.open{display:block}
 .hito{font-size:11px;color:var(--t3);margin-top:8px;padding-top:8px;border-top:1px solid var(--br)}
 
-/* BANDEJA */
-.bz-toolbar{display:flex;align-items:center;gap:8px;margin-bottom:12px;flex-wrap:wrap}
-.bz-toolbar input{flex:1;min-width:160px;font-size:13px}
-.bz-count{font-size:12px;color:var(--t3);margin-left:auto}
-.email-row{border:1px solid var(--br);border-radius:var(--r);margin-bottom:6px;overflow:hidden;transition:border-color .15s}
-.email-row:hover{border-color:var(--br2)}
-.email-row.unread{border-left:3px solid var(--b)}
-.email-head{display:flex;align-items:center;gap:10px;padding:10px 13px;cursor:pointer;background:var(--s)}
-.email-row.unread .email-head{background:#f0f2ff}
-.email-head:hover{background:var(--s2)}
-.email-from{font-size:13px;font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:160px;flex-shrink:0}
-.email-subj{font-size:13px;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--t2)}
-.email-row.unread .email-subj{color:var(--t);font-weight:500}
-.email-date{font-size:11px;color:var(--t3);white-space:nowrap;flex-shrink:0}
-.email-body{display:none;padding:14px;border-top:1px solid var(--br);background:#fff}
-.email-body.open{display:block}
-.email-meta{font-size:12px;color:var(--t2);margin-bottom:10px;line-height:1.8;padding:8px 12px;background:var(--s2);border-radius:var(--r);border:1px solid var(--br)}
-.email-text{font-size:13px;line-height:1.75;white-space:pre-wrap;max-height:300px;overflow-y:auto;padding:4px 0}
-.email-actions{display:flex;gap:8px;margin-top:12px;flex-wrap:wrap}
-.reply-area{margin-top:12px;display:none}
-.reply-area.open{display:block}
-
-/* GMAIL AUTH BANNER */
-.auth-banner{background:linear-gradient(135deg,#e8eeff,#f0f4ff);border:1px solid rgba(45,50,119,.2);border-radius:12px;padding:1.5rem;text-align:center;margin-bottom:1rem}
-.auth-banner h3{font-size:15px;font-weight:600;color:var(--b);margin-bottom:6px}
-.auth-banner p{font-size:13px;color:var(--t2);margin-bottom:14px;line-height:1.6}
-
-/* MISC */
 hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
 .row2{display:flex;gap:8px}
 .row2 input{flex:1}
 .empty{text-align:center;padding:3rem 1rem;color:var(--t3);font-size:13px}
-.unread-badge{background:var(--b);color:#fff;font-size:10px;font-weight:700;padding:1px 6px;border-radius:20px;margin-left:4px}
-.section-sep{font-size:11px;font-weight:600;color:var(--t3);text-transform:uppercase;letter-spacing:.07em;margin:16px 0 8px;padding-bottom:6px;border-bottom:1px solid var(--br)}
 </style>
 </head>
 <body>
 
-<!-- HEADER -->
 <div class="hdr">
   <span class="badge">MXCD11</span>
   <h1>Bitácora diaria</h1>
-  <div class="hdr-btns">
-    <button class="hbtn" onclick="openM('api')">⚙️ Gemini Key</button>
-    <button class="hbtn" onclick="openM('gh')">☁️ GitHub</button>
-    <button class="hbtn" id="gmail-hbtn" onclick="handleGmailBtn()">
-      <span class="gdot" id="gmail-dot"></span>
-      <span id="gmail-lbl">Gmail</span>
-    </button>
-  </div>
+  <button class="hbtn" onclick="openM('cfg')">⚙️ Configuración</button>
 </div>
 
-<!-- MODAL: API KEY -->
-<div class="mbg" id="m-api">
-  <div class="modal">
-    <h2>Clave de Gemini</h2>
-    <p class="sub">Necesaria para reformular bitácoras con IA (Gemini). Se guarda solo en tu navegador.</p>
-    <div class="info">Obtén tu clave en <code>aistudio.google.com</code> → ícono de llave → Get API key</div>
-    <label>API Key</label>
+<!-- MODAL: CONFIG (Gemini Key + GitHub + Destinatarios) -->
+<div class="mbg" id="m-cfg">
+  <div class="modal" style="max-height:90vh;overflow-y:auto;">
+    <h2>Configuración</h2>
+    <p class="sub">Tus datos se guardan solo en este navegador.</p>
+
+    <div class="ctitle" style="margin-top:4px;">Gemini API Key</div>
+    <div class="info">Obtén tu clave gratis en <code>aistudio.google.com</code> → ícono de llave → Get API key</div>
     <input type="password" id="ak-inp" placeholder="AIzaSy...">
-    <div class="mbtns">
-      <button class="btn bg2 bsm" onclick="closeM('api')">Cancelar</button>
-      <button class="btn bb bsm" onclick="saveAk()">Guardar</button>
-    </div>
-    <div id="ak-st" style="margin-top:8px;"></div>
-  </div>
-</div>
 
-<!-- MODAL: GITHUB -->
-<div class="mbg" id="m-gh">
-  <div class="modal">
-    <h2>Historial en GitHub</h2>
-    <p class="sub">El historial de bitácoras se guarda en <code>historial.json</code> en tu repo.</p>
-    <label>Usuario GitHub</label>
-    <input type="text" id="gh-u" placeholder="extjaecasti-code">
-    <label style="margin-top:8px;">Repositorio</label>
-    <input type="text" id="gh-r" placeholder="bitacora-mxcd11">
-    <label style="margin-top:8px;">Token <span style="font-size:11px;color:var(--t3);">(permiso repo)</span></label>
-    <input type="password" id="gh-t" placeholder="ghp_...">
-    <div class="mbtns">
-      <button class="btn bg2 bsm" onclick="closeM('gh')">Cancelar</button>
-      <button class="btn bb bsm" onclick="saveGh()">Guardar</button>
-    </div>
-    <div id="gh-st" style="margin-top:8px;"></div>
-  </div>
-</div>
-
-<!-- MODAL: GMAIL SETUP -->
-<div class="mbg" id="m-gmail">
-  <div class="modal">
-    <h2>Conectar Gmail</h2>
-    <p class="sub">La app usará OAuth de Google para leer y responder correos. Necesitas un <strong>Client ID</strong> de Google Cloud Console con la API de Gmail habilitada.</p>
-    <div class="info">
-      1. Ve a <code>console.cloud.google.com</code><br>
-      2. Crea un proyecto → APIs → Gmail API → Habilitar<br>
-      3. Credenciales → OAuth 2.0 → Aplicación web<br>
-      4. En "Orígenes JS autorizados" agrega la URL de esta app en Grid<br>
-      5. Copia el Client ID aquí
-    </div>
-    <label>Google OAuth Client ID</label>
-    <input type="text" id="gcid-inp" placeholder="xxxxxxxxxxxx-xxxxxxxx.apps.googleusercontent.com">
-    <div style="margin-top:12px;">
-      <div class="ctitle">Correos de jefes a monitorear</div>
-      <div class="row2" style="margin-top:4px;">
-        <input type="email" id="boss-email-inp" placeholder="jefe@mercadolibre.com">
-        <button class="btn bb bsm" onclick="addBoss()">+ Agregar</button>
+    <div class="ctitle" style="margin-top:16px;">Historial en GitHub</div>
+    <div style="display:grid;gap:8px;margin-bottom:4px;">
+      <div>
+        <label>Usuario GitHub</label>
+        <input type="text" id="gh-u" placeholder="extjaecasti-code">
       </div>
-      <div id="boss-chips" class="chips" style="margin-top:8px;"></div>
-    </div>
-    <div class="mbtns">
-      <button class="btn bg2 bsm" onclick="closeM('gmail')">Cancelar</button>
-      <button class="btn bb bsm" onclick="saveGmailCfg()">Guardar y conectar</button>
-    </div>
-    <div id="gmail-cfg-st" style="margin-top:8px;"></div>
-  </div>
-</div>
-
-<!-- MODAL: VER CORREO COMPLETO -->
-<div class="mbg" id="m-email">
-  <div class="modal" style="width:min(600px,100%);">
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
-      <h2 id="em-subj" style="flex:1;margin-right:10px;font-size:15px;"></h2>
-      <button class="btn bg2 bsm" onclick="closeM('email')">✕</button>
-    </div>
-    <div class="email-meta" id="em-meta"></div>
-    <div id="em-body" style="font-size:13px;line-height:1.75;white-space:pre-wrap;max-height:320px;overflow-y:auto;padding:4px 0;"></div>
-    <div class="email-actions">
-      <button class="btn bb bsm" onclick="toggleReply()">↩ Responder</button>
-      <button class="btn bgn bsm" id="em-read-btn" onclick="markReadFromModal()">✓ Marcar leído</button>
-      <button class="btn bg2 bsm" onclick="closeM('email')">Cerrar</button>
-    </div>
-    <div class="reply-area" id="reply-area">
-      <hr class="dv">
-      <label>Tu respuesta</label>
-      <textarea id="reply-txt" rows="5" placeholder="Escribe tu respuesta..."></textarea>
-      <div class="brow">
-        <button class="btn bb bsm" onclick="sendReply()">📤 Enviar respuesta</button>
-        <button class="btn bg2 bsm" onclick="toggleReply()">Cancelar</button>
-        <div id="reply-st"></div>
+      <div>
+        <label>Repositorio</label>
+        <input type="text" id="gh-r" placeholder="bitacora-mxcd11">
+      </div>
+      <div>
+        <label>Token GitHub <span style="font-size:11px;color:var(--t3);">(permiso repo)</span></label>
+        <input type="password" id="gh-t" placeholder="ghp_...">
       </div>
     </div>
+
+    <div class="ctitle" style="margin-top:16px;">Destinatarios del correo</div>
+    <div class="row2">
+      <input type="email" id="nemail" placeholder="correo@mercadolibre.com">
+      <button class="btn bb bsm" onclick="addEmail()">+ Agregar</button>
+    </div>
+    <div id="echips" class="chips"></div>
+
+    <div class="ctitle" style="margin-top:16px;">Asunto base</div>
+    <input type="text" id="csubj" value="Bitácora diaria — MXCD11">
+
+    <div class="mbtns">
+      <button class="btn bg2 bsm" onclick="closeM('cfg')">Cancelar</button>
+      <button class="btn bb bsm" onclick="saveCfg()">💾 Guardar</button>
+    </div>
+    <div id="cfg-st" style="margin-top:8px;"></div>
   </div>
 </div>
 
 <div class="wrap">
   <div class="tabs">
     <button class="tab on"  onclick="goTab('redactar')">✏️ Redactar</button>
-    <button class="tab"     onclick="goTab('bandeja')">📥 Bandeja <span class="unread-badge" id="unread-cnt" style="display:none"></span></button>
     <button class="tab"     onclick="goTab('historial')">📋 Historial</button>
-    <button class="tab"     onclick="goTab('config')">⚙️ Config</button>
   </div>
 
-  <!-- ══ REDACTAR ══ -->
+  <!-- REDACTAR -->
   <div id="pane-redactar" class="pane on">
     <div class="card">
       <label>Escribe lo que hiciste hoy (casual, como lo tengas)</label>
@@ -280,13 +172,15 @@ hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
         <button class="btn bg2 bsm" onclick="limpiar()">🗑 Limpiar</button>
       </div>
     </div>
+
     <div id="seco" style="display:none;">
       <div class="card">
         <div class="ctitle">Elige la mejor versión</div>
-        <div id="lopt" class="lrow" style="display:none;"><span class="sp"></span> Generando opciones con IA…</div>
+        <div id="lopt" class="lrow" style="display:none;"><span class="sp"></span> Generando con Gemini…</div>
         <div id="opts"></div>
       </div>
     </div>
+
     <div id="secf" style="display:none;">
       <div class="card">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
@@ -297,33 +191,14 @@ hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
         <hr class="dv">
         <div id="sendto"></div>
         <div class="brow" style="margin-top:10px;">
-          <button class="btn bb" id="btnsend" onclick="enviar()">📤 Registrar correo</button>
+          <button class="btn bb" id="btnsend" onclick="enviar()">📤 Registrar en historial</button>
           <div id="sendst"></div>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ══ BANDEJA ══ -->
-  <div id="pane-bandeja" class="pane">
-    <div id="bz-auth-banner" class="auth-banner" style="display:none;">
-      <h3>📬 Conecta tu Gmail</h3>
-      <p>Para ver los correos de tus jefes aquí, conecta tu cuenta de Google.<br>Configura el Client ID en el botón <strong>Gmail</strong> arriba.</p>
-      <button class="btn bb" onclick="openM('gmail')">⚙️ Configurar Gmail</button>
-    </div>
-    <div id="bz-main" style="display:none;">
-      <div class="bz-toolbar">
-        <input type="text" id="bz-search" placeholder="Buscar en bandeja…" oninput="filterEmails()">
-        <button class="btn bsm bb" onclick="loadEmails(true)">🔄 Actualizar</button>
-        <button class="btn bsm bg2" onclick="markAllRead()">✓ Marcar todos leídos</button>
-        <span class="bz-count" id="bz-count"></span>
-      </div>
-      <div id="bz-loading" class="lrow" style="display:none;"><span class="sp"></span> Cargando correos…</div>
-      <div id="bz-list"></div>
-    </div>
-  </div>
-
-  <!-- ══ HISTORIAL ══ -->
+  <!-- HISTORIAL -->
   <div id="pane-historial" class="pane">
     <div style="display:flex;justify-content:flex-end;gap:8px;margin-bottom:10px;flex-wrap:wrap;">
       <button class="btn bsm" id="btnsync" onclick="pullGh()">☁️ Cargar desde GitHub</button>
@@ -331,40 +206,14 @@ hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
     </div>
     <div id="hist"></div>
   </div>
-
-  <!-- ══ CONFIG ══ -->
-  <div id="pane-config" class="pane">
-    <div class="card">
-      <div class="ctitle">Destinatarios del correo</div>
-      <div class="row2">
-        <input type="email" id="nemail" placeholder="correo@mercadolibre.com">
-        <button class="btn bb" onclick="addEmail()">+ Agregar</button>
-      </div>
-      <div id="echips" class="chips" style="margin-top:10px;"></div>
-    </div>
-    <div class="card">
-      <div class="ctitle">Asunto base del correo</div>
-      <input type="text" id="csubj" value="Bitácora diaria — MXCD11">
-      <p style="font-size:12px;color:var(--t3);margin-top:6px;">Si ya enviaste hoy, el siguiente saldrá como "Re: …" en el mismo hilo.</p>
-    </div>
-    <button class="btn bb" onclick="saveCfg()">💾 Guardar</button>
-    <div id="cfgst" style="margin-top:8px;"></div>
-  </div>
 </div>
 
-<!-- GOOGLE API SCRIPT -->
-<script src="https://accounts.google.com/gsi/client" async></script>
-
 <script>
-// ══════════════════════════════════════════
-// STATE
-// ══════════════════════════════════════════
-const LS='bitmxcd11_v5';
+const LS='bitmxcd11_v6';
 let cfg={recipients:[],subject:'Bitácora diaria — MXCD11'};
 let history=[],threadId=null,threadDate=null;
 let ghUser='',ghRepo='',ghToken='';
-let gmailClientId='',bosses=[],gmailToken='';
-let _opts=[], emails=[], currentEmailId=null;
+let _opts=[];
 
 function load(){
   try{
@@ -375,336 +224,52 @@ function load(){
     if(d.threadDate)threadDate=d.threadDate;
     if(d.ghUser)ghUser=d.ghUser;
     if(d.ghRepo)ghRepo=d.ghRepo;
-    if(d.gmailClientId)gmailClientId=d.gmailClientId;
-    if(d.bosses)bosses=d.bosses;
     ghToken=localStorage.getItem('bitmx_ght')||'';
-    gmailToken=sessionStorage.getItem('bitmx_gat')||'';
   }catch(e){}
 }
 function persist(){
-  localStorage.setItem(LS,JSON.stringify({cfg,history,threadId,threadDate,ghUser,ghRepo,gmailClientId,bosses}));
+  localStorage.setItem(LS,JSON.stringify({cfg,history,threadId,threadDate,ghUser,ghRepo}));
 }
 function getAk(){return localStorage.getItem('bitmx_ak')||'';}
 
-// ══════════════════════════════════════════
-// MODALS
-// ══════════════════════════════════════════
+// MODAL
 function openM(id){
   document.getElementById('m-'+id).classList.add('open');
-  if(id==='api') document.getElementById('ak-inp').value=getAk();
-  if(id==='gh'){document.getElementById('gh-u').value=ghUser;document.getElementById('gh-r').value=ghRepo;document.getElementById('gh-t').value=ghToken;}
-  if(id==='gmail'){document.getElementById('gcid-inp').value=gmailClientId;renderBossChips();}
+  if(id==='cfg'){
+    document.getElementById('ak-inp').value=getAk();
+    document.getElementById('gh-u').value=ghUser;
+    document.getElementById('gh-r').value=ghRepo;
+    document.getElementById('gh-t').value=ghToken;
+    document.getElementById('csubj').value=cfg.subject;
+    renderChips();
+  }
 }
 function closeM(id){document.getElementById('m-'+id).classList.remove('open');}
 document.querySelectorAll('.mbg').forEach(mb=>mb.addEventListener('click',e=>{if(e.target===mb)mb.classList.remove('open');}));
 
-function saveAk(){
-  const v=document.getElementById('ak-inp').value.trim();
-  if(!v)return;
-  localStorage.setItem('bitmx_ak',v);
-  document.getElementById('ak-st').innerHTML='<span class="st ok2">✓ Guardada</span>';
-  setTimeout(()=>{document.getElementById('ak-st').innerHTML='';closeM('api');},1400);
-}
-function saveGh(){
+function saveCfg(){
+  const ak=document.getElementById('ak-inp').value.trim();
+  if(ak)localStorage.setItem('bitmx_ak',ak);
   ghUser=document.getElementById('gh-u').value.trim();
   ghRepo=document.getElementById('gh-r').value.trim();
   ghToken=document.getElementById('gh-t').value.trim();
-  localStorage.setItem('bitmx_ght',ghToken);
+  if(ghToken)localStorage.setItem('bitmx_ght',ghToken);
+  cfg.subject=document.getElementById('csubj').value.trim()||cfg.subject;
   persist();
-  document.getElementById('gh-st').innerHTML='<span class="st ok2">✓ Guardado</span>';
-  setTimeout(()=>{document.getElementById('gh-st').innerHTML='';closeM('gh');},1400);
+  const s=document.getElementById('cfg-st');
+  s.innerHTML='<span class="st ok2">✓ Guardado</span>';
+  setTimeout(()=>{s.innerHTML='';closeM('cfg');},1400);
 }
 
-// ══════════════════════════════════════════
-// GMAIL OAUTH
-// ══════════════════════════════════════════
-function saveGmailCfg(){
-  gmailClientId=document.getElementById('gcid-inp').value.trim();
-  persist();
-  document.getElementById('gmail-cfg-st').innerHTML='<span class="st ok2">✓ Guardado</span>';
-  setTimeout(()=>{closeM('gmail');initGmailAuth();},1200);
-}
-
-function handleGmailBtn(){
-  if(!gmailClientId){openM('gmail');return;}
-  if(gmailToken){loadEmails(true);goTab('bandeja');return;}
-  initGmailAuth();
-}
-
-function initGmailAuth(){
-  if(!gmailClientId){openM('gmail');return;}
-  if(typeof google==='undefined'){
-    setGmailDot('','Gmail: cargando…');
-    setTimeout(initGmailAuth,1500);return;
-  }
-  const client=google.accounts.oauth2.initTokenClient({
-    client_id:gmailClientId,
-    scope:'https://www.googleapis.com/auth/gmail.modify',
-    callback:(resp)=>{
-      if(resp.error){setGmailDot('','Gmail: error');return;}
-      gmailToken=resp.access_token;
-      sessionStorage.setItem('bitmx_gat',gmailToken);
-      setGmailDot('ok','Gmail: conectado');
-      updateUnreadBadge();
-    }
-  });
-  client.requestAccessToken();
-}
-
-function setGmailDot(state,label){
-  const d=document.getElementById('gmail-dot');
-  d.className='gdot'+(state==='ok'?' ok':state==='pend'?' pend':'');
-  document.getElementById('gmail-lbl').textContent=label;
-}
-
-// ══════════════════════════════════════════
-// GMAIL API
-// ══════════════════════════════════════════
-async function gmailFetch(path,opts={}){
-  if(!gmailToken)throw new Error('Sin token de Gmail');
-  const r=await fetch('https://gmail.googleapis.com/gmail/v1'+path,{
-    ...opts,headers:{Authorization:'Bearer '+gmailToken,'Content-Type':'application/json',...(opts.headers||{})}
-  });
-  if(r.status===401){gmailToken='';sessionStorage.removeItem('bitmx_gat');setGmailDot('','Gmail: sesión expirada');throw new Error('Sesión expirada, reconecta Gmail');}
-  if(!r.ok)throw new Error('Gmail API '+r.status);
-  return r.json();
-}
-
-async function loadEmails(forceRefresh=false){
-  if(!gmailToken){
-    document.getElementById('bz-auth-banner').style.display='block';
-    document.getElementById('bz-main').style.display='none';
-    return;
-  }
-  document.getElementById('bz-auth-banner').style.display='none';
-  document.getElementById('bz-main').style.display='block';
-  document.getElementById('bz-loading').style.display='flex';
-  document.getElementById('bz-list').innerHTML='';
-
-  try{
-    // Build query: from any of the bosses
-    let q='';
-    if(bosses.length){
-      q='('+bosses.map(b=>'from:'+b).join(' OR ')+')';
-    } else {
-      q='in:inbox';
-    }
-
-    const data=await gmailFetch(`/users/me/messages?maxResults=30&q=${encodeURIComponent(q)}`);
-    const msgs=data.messages||[];
-    if(!msgs.length){
-      document.getElementById('bz-loading').style.display='none';
-      document.getElementById('bz-list').innerHTML='<div class="empty">📭 No hay correos de tus jefes.</div>';
-      updateUnreadBadge();
-      return;
-    }
-
-    // Fetch each message metadata
-    emails=[];
-    await Promise.all(msgs.map(async m=>{
-      try{
-        const msg=await gmailFetch(`/users/me/messages/${m.id}?format=metadata&metadataHeaders=From&metadataHeaders=Subject&metadataHeaders=Date`);
-        const hdrs=msg.payload?.headers||[];
-        const h=n=>hdrs.find(x=>x.name===n)?.value||'';
-        emails.push({
-          id:m.id,threadId:msg.threadId,
-          from:h('From'),subject:h('Subject'),date:h('Date'),
-          snippet:msg.snippet||'',
-          unread:(msg.labelIds||[]).includes('UNREAD'),
-          body:null
-        });
-      }catch(e){}
-    }));
-    emails.sort((a,b)=>new Date(b.date)-new Date(a.date));
-    document.getElementById('bz-loading').style.display='none';
-    renderEmails(emails);
-    updateUnreadBadge();
-  }catch(e){
-    document.getElementById('bz-loading').style.display='none';
-    document.getElementById('bz-list').innerHTML=`<div class="empty">⚠️ Error: ${e.message}</div>`;
-  }
-}
-
-function parseEmailBody(payload){
-  if(!payload)return'';
-  if(payload.body?.data) return decodeBase64(payload.body.data);
-  if(payload.parts){
-    for(const p of payload.parts){
-      if(p.mimeType==='text/plain'&&p.body?.data) return decodeBase64(p.body.data);
-    }
-    for(const p of payload.parts){
-      if(p.mimeType==='text/html'&&p.body?.data){
-        const html=decodeBase64(p.body.data);
-        const tmp=document.createElement('div');tmp.innerHTML=html;
-        return tmp.innerText||tmp.textContent||'';
-      }
-      if(p.parts){const sub=parseEmailBody(p);if(sub)return sub;}
-    }
-  }
-  return payload.snippet||'';
-}
-
-function decodeBase64(str){
-  try{return decodeURIComponent(escape(atob(str.replace(/-/g,'+').replace(/_/g,'/'))));}
-  catch(e){return'';}
-}
-
-async function fetchFullBody(emailId){
-  const msg=await gmailFetch(`/users/me/messages/${emailId}?format=full`);
-  return parseEmailBody(msg.payload);
-}
-
-function renderEmails(list){
-  const c=document.getElementById('bz-list');
-  const q=(document.getElementById('bz-search')?.value||'').toLowerCase();
-  const filtered=q?list.filter(e=>e.subject.toLowerCase().includes(q)||e.from.toLowerCase().includes(q)||e.snippet.toLowerCase().includes(q)):list;
-  document.getElementById('bz-count').textContent=filtered.length+' correo'+(filtered.length!==1?'s':'');
-  if(!filtered.length){c.innerHTML='<div class="empty">Sin resultados.</div>';return;}
-
-  // Group by sender
-  const byBoss={};
-  filtered.forEach(e=>{
-    const from=e.from.replace(/<.*>/,'').trim()||e.from;
-    if(!byBoss[from])byBoss[from]=[];
-    byBoss[from].push(e);
-  });
-
-  c.innerHTML=Object.entries(byBoss).map(([boss,msgs])=>`
-    <div class="section-sep">📧 ${esc(boss)} <span style="font-weight:400;color:var(--t3)">(${msgs.length})</span></div>
-    ${msgs.map(e=>`
-    <div class="email-row ${e.unread?'unread':''}" id="erow-${e.id}">
-      <div class="email-head" onclick="openEmail('${e.id}')">
-        <div class="email-from">${esc(e.from.replace(/<.*>/,'').trim()||e.from)}</div>
-        <div class="email-subj">${esc(e.subject||'(sin asunto)')}</div>
-        <div class="email-date">${fmtDate(e.date)}</div>
-        ${e.unread?'<span style="width:8px;height:8px;background:var(--b);border-radius:50%;flex-shrink:0;"></span>':''}
-      </div>
-    </div>`).join('')}
-  `).join('');
-}
-
-function filterEmails(){renderEmails(emails);}
-
-async function openEmail(id){
-  const e=emails.find(x=>x.id===id);
-  if(!e)return;
-  currentEmailId=id;
-  document.getElementById('em-subj').textContent=e.subject||'(sin asunto)';
-  document.getElementById('em-meta').innerHTML=`
-    <strong>De:</strong> ${esc(e.from)}<br>
-    <strong>Fecha:</strong> ${fmtDate(e.date,true)}`;
-  document.getElementById('em-body').textContent='Cargando…';
-  document.getElementById('reply-area').classList.remove('open');
-  document.getElementById('reply-txt').value='';
-  document.getElementById('reply-st').innerHTML='';
-  const readBtn=document.getElementById('em-read-btn');
-  readBtn.style.display=e.unread?'':'none';
-  openM('email');
-  try{
-    if(!e.body) e.body=await fetchFullBody(id);
-    document.getElementById('em-body').textContent=e.body||e.snippet||'(sin contenido)';
-    if(e.unread){await markRead(id);e.unread=false;document.getElementById('erow-'+id)?.classList.remove('unread');readBtn.style.display='none';updateUnreadBadge();}
-  }catch(err){document.getElementById('em-body').textContent='Error al cargar: '+err.message;}
-}
-
-function markReadFromModal(){markRead(currentEmailId);document.getElementById('em-read-btn').style.display='none';}
-
-async function markRead(id){
-  try{
-    await gmailFetch(`/users/me/messages/${id}/modify`,{method:'POST',body:JSON.stringify({removeLabelIds:['UNREAD']})});
-    const e=emails.find(x=>x.id===id);if(e)e.unread=false;
-    document.getElementById('erow-'+id)?.classList.remove('unread');
-    updateUnreadBadge();
-  }catch(err){}
-}
-
-async function markAllRead(){
-  const unread=emails.filter(e=>e.unread);
-  if(!unread.length){alert('No hay correos sin leer.');return;}
-  await Promise.all(unread.map(e=>markRead(e.id)));
-  renderEmails(emails);
-}
-
-function toggleReply(){document.getElementById('reply-area').classList.toggle('open');}
-
-async function sendReply(){
-  const e=emails.find(x=>x.id===currentEmailId);
-  if(!e)return;
-  const body=document.getElementById('reply-txt').value.trim();
-  if(!body){alert('Escribe tu respuesta.');return;}
-  const btn=document.querySelector('#reply-area .btn.bb');
-  btn.disabled=true;btn.textContent='Enviando…';
-  document.getElementById('reply-st').innerHTML='';
-  try{
-    const toAddr=e.from.match(/<(.+)>/)?.[1]||e.from;
-    const subject='Re: '+(e.subject||'').replace(/^Re:\s*/i,'');
-    const rawEmail=[
-      `To: ${toAddr}`,
-      `Subject: ${subject}`,
-      `In-Reply-To: ${e.id}`,
-      `References: ${e.id}`,
-      `Content-Type: text/plain; charset=utf-8`,
-      ``,
-      body
-    ].join('\r\n');
-    const encoded=btoa(unescape(encodeURIComponent(rawEmail))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'');
-    await gmailFetch(`/users/me/messages/send`,{method:'POST',body:JSON.stringify({raw:encoded,threadId:e.threadId})});
-    document.getElementById('reply-st').innerHTML='<span class="st ok2">✓ Respuesta enviada</span>';
-    setTimeout(()=>{document.getElementById('reply-txt').value='';document.getElementById('reply-area').classList.remove('open');document.getElementById('reply-st').innerHTML='';},2000);
-  }catch(err){
-    document.getElementById('reply-st').innerHTML=`<span class="st er">Error: ${err.message}</span>`;
-  }finally{btn.disabled=false;btn.textContent='📤 Enviar respuesta';}
-}
-
-function updateUnreadBadge(){
-  const n=emails.filter(e=>e.unread).length;
-  const b=document.getElementById('unread-cnt');
-  b.textContent=n;b.style.display=n?'inline-block':'none';
-}
-
-function fmtDate(str,full=false){
-  try{
-    const d=new Date(str);
-    if(full)return d.toLocaleString('es-MX',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
-    const today=new Date();
-    if(d.toDateString()===today.toDateString())return d.toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit'});
-    return d.toLocaleDateString('es-MX',{day:'2-digit',month:'short'});
-  }catch(e){return str;}
-}
-
-// BOSS CHIPS
-function renderBossChips(){
-  const c=document.getElementById('boss-chips');
-  c.innerHTML=bosses.length
-    ?bosses.map((b,i)=>`<span class="chip">${b}<button class="cx" onclick="rmBoss(${i})">×</button></span>`).join('')
-    :'<span style="font-size:12px;color:var(--t3);">Sin correos configurados.</span>';
-}
-function addBoss(){
-  const inp=document.getElementById('boss-email-inp'),v=inp.value.trim().toLowerCase();
-  if(!v||!v.includes('@')){alert('Correo inválido.');return;}
-  if(bosses.includes(v)){alert('Ya está.');return;}
-  bosses.push(v);inp.value='';renderBossChips();
-}
-function rmBoss(i){bosses.splice(i,1);renderBossChips();}
-
-// ══════════════════════════════════════════
 // TABS
-// ══════════════════════════════════════════
 function goTab(n){
-  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('on',['redactar','bandeja','historial','config'][i]===n));
+  document.querySelectorAll('.tab').forEach((t,i)=>t.classList.toggle('on',['redactar','historial'][i]===n));
   document.querySelectorAll('.pane').forEach(p=>p.classList.remove('on'));
   document.getElementById('pane-'+n).classList.add('on');
-  if(n==='bandeja'){
-    if(gmailToken)loadEmails();
-    else{document.getElementById('bz-auth-banner').style.display='block';document.getElementById('bz-main').style.display='none';}
-  }
   if(n==='historial')renderHist();
-  if(n==='config')renderCfg();
 }
 
-// ══════════════════════════════════════════
 // GITHUB
-// ══════════════════════════════════════════
 async function ghGetFile(path){
   const r=await fetch(`https://api.github.com/repos/${ghUser}/${ghRepo}/contents/${path}`,
     {headers:{Authorization:'token '+ghToken,Accept:'application/vnd.github.v3+json'}});
@@ -723,7 +288,7 @@ async function pushGh(){
   catch(e){return false;}
 }
 async function pullGh(){
-  if(!ghToken||!ghUser||!ghRepo){alert('Configura GitHub primero.');return;}
+  if(!ghToken||!ghUser||!ghRepo){alert('Configura GitHub en ⚙️ Configuración.');return;}
   const btn=document.getElementById('btnsync');btn.disabled=true;btn.textContent='⏳ Cargando…';
   try{
     const f=await ghGetFile('historial.json');if(!f){alert('No se encontró historial.json.');return;}
@@ -735,12 +300,12 @@ async function pullGh(){
   finally{btn.disabled=false;setTimeout(()=>{btn.textContent='☁️ Cargar desde GitHub';},2000);}
 }
 
-// ══════════════════════════════════════════
-// REFORMULAR
-// ══════════════════════════════════════════
+// REFORMULAR con Gemini
 async function reformular(){
-  const ak=getAk();if(!ak){openM('api');return;}
-  const txt=document.getElementById('inp').value.trim();if(!txt){alert('Escribe tu bitácora primero.');return;}
+  const ak=getAk();
+  if(!ak){openM('cfg');alert('Primero configura tu Gemini API Key.');return;}
+  const txt=document.getElementById('inp').value.trim();
+  if(!txt){alert('Escribe tu bitácora primero.');return;}
   const btn=document.getElementById('btnref');btn.disabled=true;btn.textContent='Generando…';
   document.getElementById('seco').style.display='block';
   document.getElementById('lopt').style.display='flex';
@@ -751,11 +316,16 @@ async function reformular(){
       method:'POST',
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify({contents:[{parts:[{text:
-`Eres asistente de redacción para Andre Jael Castillo Diaz, operador de TI en MXCD11 (Mercado Libre México).
-Reformula en 3 versiones para correo al equipo.
-REGLAS: iniciar con "Hola Team," / terminar con "Saludos,\nAndre Jael Castillo Diaz" / profesional pero cálido / conservar info técnica.
-Opción 1: directa. Opción 2: detallada. Opción 3: casual/narrativa.
-SOLO JSON sin markdown: {"opciones":["texto1","texto2","texto3"]}
+`Eres asistente de redacción para Andre Jael Castillo Diaz, operador de TI en MXCD11 (centro de distribución Mercado Libre, México).
+Reformula la siguiente bitácora en 3 versiones para correo al equipo.
+REGLAS:
+- Cada versión DEBE iniciar exactamente: "Hola Team,"
+- Cada versión DEBE terminar exactamente: "Saludos,\nAndre Jael Castillo Diaz"
+- Tono profesional pero cálido, como compañero de trabajo
+- Conserva TODA la información técnica
+- Opción 1: directa y concisa. Opción 2: detallada. Opción 3: casual/narrativa.
+Responde SOLO JSON sin markdown ni bloques de código:
+{"opciones":["texto1","texto2","texto3"]}
 Bitácora:\n${txt}`}]}]})
     });
     if(!res.ok){const err=await res.json().catch(()=>({}));throw new Error(err.error?.message||'HTTP '+res.status);}
@@ -772,9 +342,11 @@ Bitácora:\n${txt}`}]}]})
 
 function renderOpts(opts){
   document.getElementById('opts').innerHTML=opts.map((t,i)=>`
-    <div class="opt"><span class="onum">Opción ${i+1}</span>
-    <div class="obody">${esc(t)}</div>
-    <button class="btn bsm bb" onclick="usarOpt(${i})">✓ Usar esta versión</button></div>`).join('');
+    <div class="opt">
+      <span class="onum">Opción ${i+1}</span>
+      <div class="obody">${esc(t)}</div>
+      <button class="btn bsm bb" onclick="usarOpt(${i})">✓ Usar esta versión</button>
+    </div>`).join('');
 }
 function usarOpt(i){
   document.getElementById('txtf').value=_opts[i];
@@ -784,62 +356,66 @@ function usarOpt(i){
 }
 function renderSendTo(){
   const d=document.getElementById('sendto');
-  if(!cfg.recipients.length){d.innerHTML=`<p class="st wa">⚠️ Sin destinatarios — ve a Config.</p>`;return;}
+  if(!cfg.recipients.length){
+    d.innerHTML=`<p class="st wa">⚠️ Sin destinatarios — configúralos en ⚙️</p>`;return;
+  }
   d.innerHTML=`<div style="font-size:12px;color:var(--t2);margin-bottom:5px;">Para:</div>
     <div class="chips">${cfg.recipients.map(r=>`<span class="chip" style="padding:3px 12px;">${r}</span>`).join('')}</div>`;
 }
 
-// ══════════════════════════════════════════
-// ENVIAR BITÁCORA
-// ══════════════════════════════════════════
+// REGISTRAR
 async function enviar(){
-  if(!cfg.recipients.length){alert('Agrega destinatarios en Config.');return;}
   const body=document.getElementById('txtf').value.trim();if(!body)return;
   const btn=document.getElementById('btnsend');btn.disabled=true;btn.textContent='Guardando…';
   document.getElementById('sendst').innerHTML='';
+
   const today=new Date().toISOString().split('T')[0];
   const isReply=threadDate===today&&!!threadId;
   if(!isReply){threadId='hilo_'+today+'_'+Date.now();threadDate=today;}
+
   const ds=new Date().toLocaleString('es-MX',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
   const sd=new Date().toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'});
   const subject=isReply?`Re: ${cfg.subject} — ${sd}`:`${cfg.subject} — ${sd}`;
+
   const entry={id:Date.now(),threadId,isReply,date:ds,isoDate:new Date().toISOString(),subject,body,recipients:[...cfg.recipients]};
   history.unshift(entry);persist();
+
   const gOk=await pushGh();
-  btn.disabled=false;btn.textContent='📤 Registrar correo';
-  const msg=isReply?'Agregado al hilo del día':'Correo registrado';
-  const gm=gOk?' · guardado en GitHub ✓':(ghToken?' · GitHub: error ⚠️':' · configura GitHub ☁️');
+  btn.disabled=false;btn.textContent='📤 Registrar en historial';
+
+  const msg=isReply?'Agregado al hilo del día':'Registrado';
+  const gm=gOk?' · guardado en GitHub ✓':(ghToken?' · GitHub: error ⚠️':' · sin GitHub configurado');
   document.getElementById('sendst').innerHTML=`<span class="st ok2">✓ ${msg}${gm}</span>`;
-  setTimeout(()=>{limpiar();document.getElementById('sendst').innerHTML='';},3500);
+  setTimeout(()=>{limpiar();document.getElementById('sendst').innerHTML='';},3000);
 }
 
-// ══════════════════════════════════════════
 // HISTORIAL
-// ══════════════════════════════════════════
 function renderHist(){
   const c=document.getElementById('hist');
-  if(!history.length){c.innerHTML=`<div class="empty">📭 Aún no hay correos registrados.</div>`;return;}
+  if(!history.length){c.innerHTML=`<div class="empty">📭 Aún no hay bitácoras registradas.</div>`;return;}
   c.innerHTML=history.map((h,i)=>`
     <div class="hi">
       <div class="hih" onclick="toggleHi(${i})">
-        <div class="him"><div class="hid2">${h.date}</div><div class="his2">${esc(h.subject)}</div></div>
+        <div class="him"><div class="hid">${h.date}</div><div class="his">${esc(h.subject)}</div></div>
         <span class="hitag ${h.isReply?'tr':'tn'}">${h.isReply?'↩ Respuesta':'✉ Nuevo hilo'}</span>
       </div>
-      <div class="hib" id="hb${i}">${esc(h.body)}<div class="hito">Para: ${(h.recipients||[]).join(', ')}</div></div>
+      <div class="hib" id="hb${i}">${esc(h.body)}
+        ${h.recipients&&h.recipients.length?`<div class="hito">Para: ${h.recipients.join(', ')}</div>`:''}
+      </div>
     </div>`).join('');
 }
 function toggleHi(i){document.getElementById('hb'+i).classList.toggle('open');}
-function clearLocal(){if(!confirm('¿Borrar historial local?'))return;history=[];threadId=null;threadDate=null;persist();renderHist();}
+function clearLocal(){
+  if(!confirm('¿Borrar historial local? (GitHub no se modifica)'))return;
+  history=[];threadId=null;threadDate=null;persist();renderHist();
+}
 
-// ══════════════════════════════════════════
-// CONFIG
-// ══════════════════════════════════════════
-function renderCfg(){document.getElementById('csubj').value=cfg.subject;renderChips();}
+// CHIPS DESTINATARIOS
 function renderChips(){
   const c=document.getElementById('echips');
   c.innerHTML=cfg.recipients.length
     ?cfg.recipients.map((r,i)=>`<span class="chip">${r}<button class="cx" onclick="rmEmail(${i})">×</button></span>`).join('')
-    :'<span style="font-size:12px;color:var(--t3);">Sin destinatarios.</span>';
+    :'<span style="font-size:12px;color:var(--t3);margin-top:4px;display:block;">Sin destinatarios aún.</span>';
 }
 function addEmail(){
   const inp=document.getElementById('nemail'),v=inp.value.trim().toLowerCase();
@@ -848,23 +424,17 @@ function addEmail(){
   cfg.recipients.push(v);inp.value='';renderChips();
 }
 function rmEmail(i){cfg.recipients.splice(i,1);renderChips();}
-function saveCfg(){
-  cfg.subject=document.getElementById('csubj').value.trim()||cfg.subject;persist();
-  const s=document.getElementById('cfgst');s.innerHTML='<span class="st ok2">✓ Guardado</span>';
-  setTimeout(()=>{s.innerHTML='';},2000);
-}
 
-// ══════════════════════════════════════════
-// UTILS
-// ══════════════════════════════════════════
-function limpiar(){document.getElementById('inp').value='';document.getElementById('seco').style.display='none';document.getElementById('secf').style.display='none';document.getElementById('opts').innerHTML='';_opts=[];}
+function limpiar(){
+  document.getElementById('inp').value='';
+  document.getElementById('seco').style.display='none';
+  document.getElementById('secf').style.display='none';
+  document.getElementById('opts').innerHTML='';
+  _opts=[];
+}
 function esc(s){return(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
 
-// ── INIT ──
-load();renderCfg();
-if(gmailToken){setGmailDot('ok','Gmail: conectado');}
-else if(gmailClientId){setGmailDot('','Gmail: click para conectar');}
-else{setGmailDot('','Gmail');}
+load();
 </script>
 </body>
 </html>

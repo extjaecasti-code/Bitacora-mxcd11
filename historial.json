@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1783827275353,
+    "threadId": "hilo_2026-07-12_1783827275353",
+    "isReply": false,
+    "date": "11 jul 2026, 09:34 p.m.",
+    "isoDate": "2026-07-12T03:34:35.353Z",
+    "subject": "Bitácora diaria — MXCD11 — 11 jul 2026",
+    "body": "Hola Team,\n\nLes presento el reporte detallado de las actividades correspondientes al turno de hoy en MXCD11:\n\n1. Sincronización y Supervisión: Al inicio del turno me reuní con Luis en AF para revisar los pendientes del día. Posteriormente, se llevó a cabo el recorrido de inspección en las mesas operativas y esferas para asegurar que la operación fluyera de manera correcta.\n2. Gestión de Equipamiento: Recogimos en el área de IB el material que nos llegó (bases para baterías de HH y dispositivos HH TC52k) y procedimos a dejarlo resguardado en AF.\n3. Soporte de software: Se brindó apoyo a Nancy y a Erick Manuel, quienes reportaron problemas para cargar páginas en Google Chrome. En ambos casos, el inconveniente se resolvió exitosamente depurando las cookies y el historial de caché de sus navegadores.\n4. Soporte de Hardware (HH): Acudimos a AF debido a que varias HH presentaban problemas de desbloqueo a pesar de haber retirado el tag. Esto se pudo haber dado por la caida en el sistema MDM. Para solucionarlo, desbloqueamos 5 dispositivos utilizando la pagina sauron.adminmlm; las restantes se sincronizaron y desbloquearon de manera automática al conectarse a la red. No obstante, se realizó una validación preventiva de todas las HH configuradas.\n\nPendientes: Entregamos turno sin pendientes.\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
+    "id": 1783740028737,
+    "threadId": "hilo_2026-07-11_1783740028731",
+    "isReply": false,
+    "date": "10 jul 2026, 09:20 p.m.",
+    "isoDate": "2026-07-11T03:20:28.737Z",
+    "subject": "Bitácora diaria — MXCD11 — 10 jul 2026",
+    "body": "Hola Team,\n\nLes comparto el reporte detallado de las actividades e incidencias atendidas durante el turno en MXCD11:\n\n1. Recorrido y Feedback: Realicé el recorrido por el site y se mantuvo comunicación con los Ericks para recibir sus comentarios.\n2. Soporte Técnico: Atendimos el llamado de Karla de CIE para conectar su equipo a la impresora de cowork. Posteriormente, se apoyó a un usuario del área de ICQA para realizar la conexión de su laptop a las impresoras.\n3. Configuración de Handhelds (AF): Revisamos las HH que no contaban con Sauron activo. Se realizó la separación de 60 unidades de OB asignadas al turno de la noche, y a las más de 90 HH restantes se les configuró el tag \"Sauron-MEX\".\n4. Control de Activos e Inventario: El eliminador de equipo desktop que se encontraba en la pantalla de SHE fue trasladado al área de AF, donde están los equipos Sauron. Asimismo, se ingresaron equipos en garantía al MDF, se actualizaron los registros tanto en Arturito como en el inventario, y se retiraron los cargadores que estaban pendientes en el MDF.\n\nPendiente: Queda en seguimiento la revisión y el etiquetado de los equipos que falten de Sauron.\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  }
+]

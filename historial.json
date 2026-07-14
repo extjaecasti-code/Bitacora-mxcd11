@@ -1,5 +1,15 @@
 [
   {
+    "id": 1783999662578,
+    "threadId": "hilo_2026-07-14_1783999662577",
+    "isReply": false,
+    "date": "13 jul 2026, 09:27 p.m.",
+    "isoDate": "2026-07-14T03:27:42.578Z",
+    "subject": "Bitácora diaria — MXCD11 — 13 jul 2026",
+    "body": "Hola Team,\n\nLes comparto el resumen de actividades de hoy en MXCD11:\n\n- Soporte D&I: Se apoyó con la instalación del software de perifoneo. Solo se instaló 1 de los sistemas ya que el otro requiere una USB colocada permanentemente como llave; se envió correo para solicitar la habilitación de lectura del puerto USB.\n- Soporte general: Se ayudó a un colaborador con la revisión de su app SuccessFactors.\n- Actividades AF: Se recibió turno, se enseñó el proceso de registro por Sauron y se bloquearon 25 HH.\n- Recorrido de impresoras: Se detectó falla en la impresora de guías de la mesa PS2; se procederá con su reemplazo.\n- Cierre en AF: Se realizó el deploy de 1 HH y se bloquearon otras 15 HH.\n\nPendiente:\n- Cambiar la impresora de guías de la mesa PS2 por una de AF, actualizando su estatus en Arturito e inventario.\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1783827275353,
     "threadId": "hilo_2026-07-12_1783827275353",
     "isReply": false,

@@ -1,5 +1,15 @@
 [
   {
+    "id": 1784086299052,
+    "threadId": "hilo_2026-07-15_1784086299051",
+    "isReply": false,
+    "date": "14 jul 2026, 09:31 p.m.",
+    "isoDate": "2026-07-15T03:31:39.052Z",
+    "subject": "Bitácora diaria — MXCD11 — 14 jul 2026",
+    "body": "Hola Team,\n\nLes presento el reporte detallado de las actividades de TI correspondientes al turno de hoy:\n\n1. Plática con erick.\n2. Durante el recorrido se Reactivaron los fingers que presentaban fallas al mostrar información.\n3. Reemplazo de la impresora de guías de la mesa de PS2 utilizando un equipo proveniente de AF, registrando la actualización correspondiente en Arturito y en el inventario.\n4. Soporte técnico a usuario de ICQA para la configuración de su laptop con la impresora de calidad.\n5. Procesamiento de las HH que llegaron de RC03 en el área de AF:\n   * Actualización de estatus en Arturito e inventario.\n   * Colocación de tags Sauron a los equipos listos.\n   * Registro de los equipos etiquetados en el Sheets \"Activo en préstamo\" (pestaña RC03).\n   * Resguardo de las HH listas en una caja gris, la cual se ubicó encima de las pendientes.\n6. Apoyo al equipo de LP en caseta para retirar el tag Sauron de sus dispositivos HH.\n\nPendiente:\n- Concluir el etiquetado con tag Sauron de las HH restantes de RC03 (ubicadas en la caja de cartón).\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1783999662578,
     "threadId": "hilo_2026-07-14_1783999662577",
     "isReply": false,

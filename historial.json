@@ -1,5 +1,15 @@
 [
   {
+    "id": 1784173153760,
+    "threadId": "hilo_2026-07-16_1784173153754",
+    "isReply": false,
+    "date": "15 jul 2026, 09:39 p.m.",
+    "isoDate": "2026-07-16T03:39:13.760Z",
+    "subject": "Bitácora diaria — MXCD11 — 15 jul 2026",
+    "body": "Hola Team,\n\nEspero que se encuentren muy bien. Les presento el desglose detallado de las actividades correspondientes al día de hoy en el site MXCD11:\n\n1. Gestión de Garantías y Proveedores: Se recibió al proveedor Dataware, quien nos entregó dos impresoras. A su vez, se realizó la entrega de los equipos que teníamos asignados para garantía. Toda la información ha sido debidamente actualizada en el inventario general, en \"arturito\" y en la pestaña específica de garantías.\n2. Soporte a Usuarios: Se procedió con la actualización y configuración del equipo para el usuario de SHE (incluyendo VPN, Claude, huella digital, etc.), concluyendo con la firma de la responsiva correspondiente.\n3. Recorrido de Piso y AF: Realizamos el recorrido de validación en las mesas operativas y esferas para asegurar su correcto funcionamiento. Asimismo, se acudió al área de AF para retirar una HH dañada y solicitarles el reporte de su inventario actual.\n4. Administración de Consola y Tickets: En Google Admin se migraron todas las laptops del site de \"test bancadas\" a \"bancadas de MLM MXCD11\". \nFinalmente, se revisaron y cerraron los tickets que contaban con solución.\n\nPendientes: Sin pendientes\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1784086299052,
     "threadId": "hilo_2026-07-15_1784086299051",
     "isReply": false,

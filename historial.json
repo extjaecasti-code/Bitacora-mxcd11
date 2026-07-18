@@ -1,5 +1,15 @@
 [
   {
+    "id": 1784346128859,
+    "threadId": "hilo_2026-07-18_1784345884399",
+    "isReply": true,
+    "date": "17 jul 2026, 09:42 p.m.",
+    "isoDate": "2026-07-18T03:42:08.859Z",
+    "subject": "Re: Bitácora diaria — MXCD11 — 17 jul 2026",
+    "body": "Hola Team,\n\nLes presento el reporte detallado de las actividades realizadas hoy en nuestra jornada de TI en MXCD11:\n\n1. Configuración de Miniprinters: Al iniciar el turno, se impartió un tutorial sobre la conexión de miniprinters a celulares para la configuración de red. Asimismo, se brindó apoyo a los Ericks en el proceso de actualización de estos equipos.\n2. Pruebas de Perifoneo: Trabajamos con el proveedor en la revisión del software del sistema de perifoneo. Tras finalizar con éxito las pruebas necesarias, se nos hizo entrega de la llave del equipo ubicado en el área de OB para su resguardo.\n3. Reparación de Impresora: Se atendió el reporte de un equipo dañado en OB. Al detectar una falla en el cabezal, se procedió a realizar el cambio físico de la refacción.\n4. Gestión Interna y MDF: Se realizó la revisión y el registro de tickets en sistema, además de llevar a cabo el ordenamiento físico del MDF.\n5. Deploy de HH: Iniciamos con el despliegue de Handhelds (HH).\n\nPendientes:\n- Seguir avanzando con el deploy de las Handhelds (HH).\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1784345884412,
     "threadId": "hilo_2026-07-18_1784345884399",
     "isReply": false,

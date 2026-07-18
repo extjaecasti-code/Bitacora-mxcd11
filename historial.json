@@ -1,5 +1,15 @@
 [
   {
+    "id": 1784345884412,
+    "threadId": "hilo_2026-07-18_1784345884399",
+    "isReply": false,
+    "date": "17 jul 2026, 09:38 p.m.",
+    "isoDate": "2026-07-18T03:38:04.412Z",
+    "subject": "Bitácora diaria — MXCD11 — 17 jul 2026",
+    "body": "Hola Team,\n\nLes comparto el resumen de mis actividades de hoy:\n- Handhelds: Colocación de tag \"Sauron\" en AF y revisión de equipos de RC03.\n- Recorrido con Erick: Solución a impresora con QR incorrecto (tenía ID en vez de ZEB).\n- Soporte y Equipos: Revisión de laptop en Thundera (Crowdstrike listo, BIOS pendiente de actualizar en Dell App); validación al 100% de laptop de perifoneo en MDF.\n- Impresoras en UCS: Recorrido para actualizar ubicaciones incorrectas directamente en el sistema y revisión de actualizaciones de UCS en AF.\n- Usuarios: Limpieza de cabezal y pruebas en impresora de Nancy; configuración de miniprinter de Gaby (IB) mediante la app del pato.\n- Gestión: Revisión y registro de tickets en incidencias.\n- Datos de Soco (ubicaciones de impresoras sin datos):\n  * XXRBN253201072 - MDF\n  * XXRBN244002979 - ICQA\n  * XXRBN244001845 - OB de P2S (creo que está en MDF)\n  * XXRBN244001749 - OB de P2S (creo que está en MDF)\n  * XXRBN244001902 - MDF\n\nPendientes:\n- Actualizar impresoras separadas por Soco.\n- Entregar laptop de perifoneo (la dejé en mi lugar).\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1784173153760,
     "threadId": "hilo_2026-07-16_1784173153754",
     "isReply": false,

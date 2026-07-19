@@ -1,5 +1,15 @@
 [
   {
+    "id": 1784432707724,
+    "threadId": "hilo_2026-07-19_1784432707717",
+    "isReply": false,
+    "date": "18 jul 2026, 09:45 p.m.",
+    "isoDate": "2026-07-19T03:45:07.724Z",
+    "subject": "Bitácora diaria — MXCD11 — 18 jul 2026",
+    "body": "Hola Team,\n\nLes comparto el reporte detallado de las actividades realizadas durante el turno de hoy en MXCD11:\n\n1. Capacitación: Al inicio del turno se brindó apoyo a Miguel explicándole el proceso para deployar una HH.\n2. Gestión de equipos: Acudí al área de Activo Fijo para entregar etiquetas para impresoras y recolectar las HH que van a garantía. Estos equipos ya se actualizaron en Arturito y cambiaron su estatus a \"reparación\" en el inventario.\n3. Revisión de infraestructura: Realicé un recorrido de supervisión en mesas operativas y esferas, sin detectar ninguna anomalía.\n4. Mantenimiento de splitters: Estuvimos en espera de Ingeniería de planta para la limpieza de splitters desde las 6:00 pm. Llegaron a las 9:10 pm, se les dio acceso y realizaron la limpieza de un splitter del servidor, quedando pendiente el que se ubica al lado de la puerta\n\nPendientes:\n- Continuar con el despliegue de HH.\n- Dar acceso a Ingeniería de planta para el mantenimiento del splitter restante.\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1784346128859,
     "threadId": "hilo_2026-07-18_1784345884399",
     "isReply": true,

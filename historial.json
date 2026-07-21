@@ -1,5 +1,15 @@
 [
   {
+    "id": 1784604879036,
+    "threadId": "hilo_2026-07-21_1784604879028",
+    "isReply": false,
+    "date": "20 jul 2026, 09:34 p.m.",
+    "isoDate": "2026-07-21T03:34:39.036Z",
+    "subject": "Bitácora diaria — MXCD11 — 20 jul 2026",
+    "body": "Hola Team,\n\nLes comparto el resumen de mis actividades de hoy en MXCD11:\n\n1. Depuración de equipos offline (>20 días):\n- Alineamos pendientes con Miguel y revisamos con Erick Avisai el reporte de HH y equipos sin encender.\n- Se solicitó a AF encender los equipos.\n- Laptops: Offline en MDM por migración a Chrome Flex.\n- HH: La mayoría ya operativas. Localizamos físicamente en AF 7 HH que figuraban en stock de inventario y activas en Arturito, pero que AF no las tenían registradas. Tras buscarlas con el líder del área, actualizamos el inventario y las encendimos. \nSeries: \n24249524203425, \n24248524204918, \n24248524204955, \n24248524204927, \n24248524204878, \n24248524204987,\n24248524205105.\n\n2. Soporte y Piso:\n- Configuración de Google Chat para un usuario.\n- Reconfiguración de Okta (laptop/móvil) para personal de People.\n- Recorrido de control en mesas y esferas.\n\nPendientes del turno:\n- Consultar con los Ericks sobre el registro de las 30 HH deployadas en este formulario: https://docs.google.com/forms/d/e/1FAIpQLSeDyhTUtY8mCmTBTXVW6PsezpgvyJS6JYLTdhYI86YApsymhg/viewform\n- Volver a pegar los scanners en la pared de AF con cinta doble cara.\n\nSaludos,\nAndre Jael Castillo Diaz",
+    "recipients": []
+  },
+  {
     "id": 1784432707724,
     "threadId": "hilo_2026-07-19_1784432707717",
     "isReply": false,

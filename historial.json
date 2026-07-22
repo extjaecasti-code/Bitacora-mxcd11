@@ -1,5 +1,18 @@
 [
   {
+    "id": 1784750021797,
+    "threadId": "hilo_2026-07-22_1784691160494",
+    "isReply": true,
+    "date": "22 jul 2026, 01:53 p.m.",
+    "isoDate": "2026-07-22T19:53:41.797Z",
+    "subject": "Re: Bitácora diaria — MXCD11 — 22 jul 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como los temas pendientes a los que se les dará seguimiento:\n\nActividades realizadas:\nRecorridos: Se realizó el recorrido inicial en mesas operativas y esferas.\n\nLaptops y AF:\n\nSe elaboró la carta responsiva a Ángel Cora por 2 laptops y se dejaron preparadas para entrega a Activos Fijos (AF).\n\nSe envió correo a AF con los números de serie correspondientes para su registro.\n\nImpresoras ZQ521:\n\nSe envió la configuración de red a 3 equipos ZQ521.\n\nSe registraron en UCS un total de 26 impresoras ZQ521 (las 3 nuevas y el resto del lote).\n\nSe imprimieron y colocaron sus etiquetas.\n\nSe dejaron encendidas para que el equipo (Ericks) proceda con la actualización de firmware.\n\nSoporte a usuarios:\n\nSe brindó apoyo a 2 usuarios con la configuración de Google Chat.\n\nSe atendió una solicitud de contraseñas en Recepción; se les canalizó con su Manager, ya que las contraseñas son únicas, se imprimen en código QR y el proceso debe gestionarse directamente con él.\n\nSe revisó la Finger 3 que presentaba inconsistencias (se solucionó reiniciando la sesión de Google en el equipo).\n\nGarantías e Inventario:\n\nSe recolectó 1 HH y 1 cargador para envío a garantía, actualizando la información correspondiente en el sistema de Inventario y en Arturito.\n\nPendientes:\nMiniprinters: Pegar etiquetas y resguardar en AF una vez que concluya la actualización en UCS por parte de los Ericks.\n\nEquipos HH (TC53E):\n\nColocar correas a las nuevas HH TC53E (ubicadas en AF, en la mesa blanca central).\n\nActualizar su estado en Inventario y en Arturito.\n\nEnviar correo a AF especificando cuáles HH corresponden a Logística Inversa y cuáles a Backup (las 100 unidades separadas sin Sauron, las cuales también deben etiquetarse).\n\nActualización de Sistema: Actualizar las HH a Android 14 (A14) tomando como referencia el archivo de Google Sheets \"HH con A13\".\n\nQuedo a su disposición ante cualquier duda o comentario.\nSaludos cordiales,\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1784691160500,
     "threadId": "hilo_2026-07-22_1784691160494",
     "isReply": false,

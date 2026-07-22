@@ -169,6 +169,7 @@ hr.dv{border:none;border-top:1px solid var(--br);margin:1rem 0}
       <textarea id="inp" placeholder="ej: fui a ver el escáner del muelle 5, era un cable suelto, ya quedó. También ayudé a Luis con la VPN, le reinicié el agente CCM y ya conectó..."></textarea>
       <div class="brow">
         <button class="btn by" id="btnref" onclick="reformular()">✨ Reformular con IA</button>
+        <button class="btn bsm" onclick="guardarDirecto()" style="border-color:#0f6e56;color:#0f6e56;">💾 Guardar sin reformular</button>
         <button class="btn bg2 bsm" onclick="limpiar()">🗑 Limpiar</button>
       </div>
     </div>
@@ -226,6 +227,31 @@ function load(){
     if(d.ghRepo)ghRepo=d.ghRepo;
     ghToken=localStorage.getItem('bitmx_ght')||'';
   }catch(e){}
+
+  // Migrar historial de versiones anteriores
+  const oldKeys=['bitmxcd11_v5','bitmxcd11_v4','bitmxcd11_v3','bitmxcd11_v2','bitacora_mxcd11'];
+  const currentIds=new Set(history.map(h=>h.id));
+  let migrated=0;
+  oldKeys.forEach(k=>{
+    try{
+      const old=JSON.parse(localStorage.getItem(k)||'{}');
+      const oldHistory=old.history||[];
+      oldHistory.forEach(e=>{
+        if(!currentIds.has(e.id)){history.push(e);currentIds.add(e.id);migrated++;}
+      });
+      // también migrar config si no tenemos
+      if(!cfg.recipients.length&&old.cfg&&old.cfg.recipients&&old.cfg.recipients.length){
+        cfg=old.cfg;
+      }
+      if(!ghUser&&old.ghUser)ghUser=old.ghUser;
+      if(!ghRepo&&old.ghRepo)ghRepo=old.ghRepo;
+    }catch(e){}
+  });
+  if(migrated>0){
+    history.sort((a,b)=>b.id-a.id);
+    persist();
+    console.log('Migrados '+migrated+' registros de versiones anteriores');
+  }
 }
 function persist(){
   localStorage.setItem(LS,JSON.stringify({cfg,history,threadId,threadDate,ghUser,ghRepo}));
@@ -434,6 +460,27 @@ function addEmail(){
   cfg.recipients.push(v);inp.value='';renderChips();
 }
 function rmEmail(i){cfg.recipients.splice(i,1);renderChips();}
+
+async function guardarDirecto(){
+  const body=document.getElementById('inp').value.trim();
+  if(!body){alert('Escribe algo primero.');return;}
+  const today=new Date().toISOString().split('T')[0];
+  const isReply=threadDate===today&&!!threadId;
+  if(!isReply){threadId='hilo_'+today+'_'+Date.now();threadDate=today;}
+  const ds=new Date().toLocaleString('es-MX',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'});
+  const sd=new Date().toLocaleDateString('es-MX',{day:'2-digit',month:'short',year:'numeric'});
+  const subject=isReply?`Re: ${cfg.subject} — ${sd}`:`${cfg.subject} — ${sd}`;
+  const entry={id:Date.now(),threadId,isReply,date:ds,isoDate:new Date().toISOString(),subject,body,recipients:[...cfg.recipients]};
+  history.unshift(entry);persist();
+  const gOk=await pushGh();
+  const gm=gOk?' · guardado en GitHub ✓':(ghToken?' · GitHub: error ⚠️':' · sin GitHub configurado');
+  // show quick toast
+  const t=document.createElement('div');
+  t.style.cssText='position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:#0f6e56;color:#fff;padding:8px 18px;border-radius:8px;font-size:13px;z-index:999;';
+  t.textContent='✓ Guardado en historial'+gm;
+  document.body.appendChild(t);
+  setTimeout(()=>{t.remove();limpiar();},2500);
+}
 
 function limpiar(){
   document.getElementById('inp').value='';

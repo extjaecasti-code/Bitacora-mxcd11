@@ -1,5 +1,18 @@
 [
   {
+    "id": 1784837089927,
+    "threadId": "hilo_2026-07-23_1784837089916",
+    "isReply": false,
+    "date": "23 jul 2026, 02:04 p.m.",
+    "isoDate": "2026-07-23T20:04:49.927Z",
+    "subject": "Bitácora diaria — MXCD11 — 23 jul 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como los pendientes a los cuales se les dará seguimiento:\n\nActividades realizadas:\nRevisiones iniciales:\n\nSe inició el turno realizando el recorrido en mesas operativas y esferas.\n\nSe acudió a Activos Fijos (AF) para verificar las 10 HH destinadas a Logística Inversa, confirmando que estuvieran actualizadas a Android 14 (A14) y con Sauron activo.\n\nSoporte y configuración:\n\nSe apoyó a Kevin con la configuración de Zebra Browser en sus laptops para habilitar la impresión.\n\nSe brindó soporte a un usuario con la configuración de Google Chat.\n\nGestión de equipos y préstamo:\n\nSe recolectó 1 HH que va a garantía en el MDF.\n\nSe prepararon 30 HH destinadas a préstamo para el MXCD07. Para su salida, se generó el ticket en Shield, se envió el correo correspondiente y se actualizó la información tanto en Inventario como en Arturito.\n\nGarantías e Inventario:\n\nSe acudió a Recepción junto con Dataware para entregar y recibir equipos en garantía. Se actualizó el apartado correspondiente en el sistema de Inventario.\n\nSe avanzó en el desarrollo del GitHub de Inventario, mejorando el módulo de garantías.\n\nEtiquetado:\n\nSe inició el pegado de etiquetas a las miniprinters Zebra ubicadas en el MDF.\n\nPendientes:\nGarantías: Cerrar los tickets de los equipos que ya ingresaron de garantía.\n\nInventarios: Actualizar en Arturito e Inventario los equipos recibidos (clasificarlos como stock o ingresarlos a AF para ponerlos en uso).\n\nEtiquetado: Continuar con el pegado de etiquetas a las miniprinters Zebra (MZ).\n\nQuedo al pendiente de cualquier duda o comentario.\n\nSaludos cordiales,\n\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1784750021797,
     "threadId": "hilo_2026-07-22_1784691160494",
     "isReply": true,

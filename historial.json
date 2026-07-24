@@ -1,5 +1,18 @@
 [
   {
+    "id": 1784923157700,
+    "threadId": "hilo_2026-07-24_1784923157686",
+    "isReply": false,
+    "date": "24 jul 2026, 01:59 p.m.",
+    "isoDate": "2026-07-24T19:59:17.700Z",
+    "subject": "Bitácora diaria — MXCD11 — 24 jul 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como los pendientes a los que se les dará seguimiento:\n\n° Actividades realizadas:\n\n° Recorrido e infraestructura:\n- Se realizó el recorrido inicial en mesas operativas y esferas.\n- Se detectó que las pantallas de Finger 1 y Finger 5 no mostrababan la información correcta, por lo que se realizaron los ajustes necesarios para reestablecer la señal.\n\n° Soporte a usuarios y salas:\n- Se brindó apoyo a un usuario con la configuración de Google Chat.\n- Se atendió a Ingeniería de Planta por un fallo en su Meet (no proyectaba correctamente); se reconectó el cableado y se realizaron pruebas exitosas.\n- Se acudió con el área de People para solicitar el encendido de sus tablets y así poder monitorearlas desde el MDF.\n- Se apoyó al usuario Fabián con una solicitud puntual.\n\n° Equipos e Inventarios:\n- Se concluyó el etiquetado de las impresoras ZQ521 ubicadas en el MDF, imprimiendo también las etiquetas faltantes.\n- Se desplegó la actualización correspondiente a la versión del sistema de Inventario.\n- Se recolectó una impresora en Activos Fijos (AF) para diagnóstico y optimización de rendimiento, actualizando su firmware en Link-OS a la versión 7.5.\n- Se recolectó la tablet de Training y se trasladó al MDF para la realización de pruebas.\n\n° Pendientes:\n\n° Traslado de equipos a AF: \n- Ingresar a AF la charola gris con las 30 HH y sus baterías. Resguardar en la caja correspondiente a HH sin Sauron y actualizar el estatus en el Inventario (el estatus en Arturito ya fue actualizado a \"En uso\").\n° Miniprinters: \n- Confirmar con el equipo (Ericks) si las miniprinters ya están listas para ingresarse a AF; en caso afirmativo, realizar el resguardo y actualizar el estatus tanto en el Inventario como en Arturito.\n\nQuedo a su disposición ante cualquier duda o comentario.\nSaludos cordiales,\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1784837089927,
     "threadId": "hilo_2026-07-23_1784837089916",
     "isReply": false,

@@ -1,5 +1,18 @@
 [
   {
+    "id": 1785181195587,
+    "threadId": "hilo_2026-07-27_1785181172616",
+    "isReply": true,
+    "date": "27 jul 2026, 01:39 p.m.",
+    "isoDate": "2026-07-27T19:39:55.587Z",
+    "subject": "Re: Bitácora diaria — MXCD11 — 27 jul 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno:\n\nActividades realizadas:\nRecorrido e infraestructura:\n\nSe realizó el recorrido inicial en esferas y mesas operativas.\n\nSe detectó que el equipo del Finger 4 no mostraba información, por lo que se reabrió la sesión de Google para solucionar el problema.\n\nSoporte y reemplazo de equipos:\n\nLogística Inversa (LI): Se retiró un equipo de mesa dañado y se reemplazó por uno resguardado en Activos Fijos (AF). Se actualizaron los datos en el Inventario y en Arturito.\n\nActualización de firmware: Se revisó el equipo reportado por el equipo de Ericks; presentaba la versión 7.4 y se actualizó correctamente a la versión 7.5 de Link-OS.\n\nSoporte a usuarios: Se brindó apoyo a un usuario para iniciar sesión en su laptop.\n\nMantenimiento físico: Se colocó cinta de doble cara a los escáneres de Sauron que se encontraban sueltos.\n\nRedes y Plantas (IDF / UPS):\n\nSe identificó una alarma en el UPS de un IDF. Con el apoyo de Ingeniería de Planta (IP), se revisó y quedó solucionado.\n\nGarantías, préstamos y bajas:\n\nSe recolectaron 1 HH y 1 miniprinter Zebra para trámite de garantía, actualizando su estatus en el Inventario y en Arturito.\n\nSe recibió una laptop proveniente de un ex-TL, procediendo con su baja en Slack.\n\nSe recibió la devolución del equipo en préstamo por parte de Juan, registrando el ingreso en Inventario y Arturito.\n\nPendientes:\nPor el momento no se registran pendientes tras el turno.\n\nQuedo a su disposición ante cualquier duda o comentario.\n\nSaludos cordiales,\n\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785181172632,
     "threadId": "hilo_2026-07-27_1785181172616",
     "isReply": false,

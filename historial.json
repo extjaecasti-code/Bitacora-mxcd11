@@ -1,5 +1,18 @@
 [
   {
+    "id": 1785268330475,
+    "threadId": "hilo_2026-07-28_1785268330460",
+    "isReply": false,
+    "date": "28 jul 2026, 01:52 p.m.",
+    "isoDate": "2026-07-28T19:52:10.475Z",
+    "subject": "Bitácora diaria — MXCD11 — 28 jul 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como los pendientes a los que se les dará seguimiento:\n\nActividades realizadas:\nMantenimiento y soporte a impresoras:\nSe recolectó y cambió el tóner de la impresora de Outbound (OB) para restablecer su correcto funcionamiento.\nSe acudió a Activos Fijo (AF) para corregir el etiquetado de impresoras que presentaban datos erróneos y se validaron sus números de serie.\nSe configuró una impresora ZQ521 adicional que presentaba fallas en la calidad de impresión.\nEn coordinación con Erick, se revisó una impresora con problemas de configuración. Se generó una lista para identificar otros equipos con el mismo defecto; al confirmar que estaban en uso, se programó su revisión para el cierre del primer y segundo turno.\n\nRecorrido e infraestructura:\nSe concluyó el recorrido en esferas y mesas operativas. Se detectó nuevamente falta de señal en la pantalla del Finger 4 y se procedió a revisar el equipo.\nSe identificó que el UPS de la Mesa 2 en Logística Inversa (LI) —anteriormente reportado por Luis— volvió a activar su alarma.\n\nDesbloqueo y configuración de HH / Escáneres:\nOTC Interno: \nSe revisaron y desbloqueó un lote de aproximadamente 35 HH de Training restringidas por Sauron, utilizando la herramienta SauronTools.\n\nLogística Inversa (LI):\n Se atendió un escáner fuera de servicio en mesa. El equipo se había desconfigurado, por lo que se reescaneó el código de configuración y se realizaron pruebas exitosas.\n\nSe revisó una HH adicional que presentaba fallas al intentar desbloquearse.\n\nPendientes:\nImpresoras ZQ521 (AF):\nRevisar las unidades ubicadas a un costado de los lockers en Activos Fijos para colocación de etiquetas faltantes.\nReemplazo de UPS en LI: \nSustituir el UPS con falla en LI por uno disponible en AF, actualizando su estatus tanto en Arturito como en el Inventario.\nNota importante para el equipo: \nAl realizar modificaciones en el Inventario, favor de esperar entre 2 y 3 segundos antes de dar clic en el botón Consolidar, asegurando así que la información se sincronice correctamente para todos.\n\nRevisión de impresoras pendientes: \nDar seguimiento a la revisión de las impresoras con detalle de configuración una vez que finalicen los turnos.\nIPs a revisar:\n10.9.124.131\n10.9.124.127\n10.9.124.89\n10.9.124.154\n10.9.124.63\n10.9.124.80\n10.9.124.110\n- Meter un quita goma a AF\n\nQuedo a su disposición ante cualquier duda o comentario.\nSaludos cordiales,\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785181195587,
     "threadId": "hilo_2026-07-27_1785181172616",
     "isReply": true,

@@ -1,5 +1,18 @@
 [
   {
+    "id": 1785441607189,
+    "threadId": "hilo_2026-07-30_1785441607179",
+    "isReply": false,
+    "date": "30 jul 2026, 02:00 p.m.",
+    "isoDate": "2026-07-30T20:00:07.189Z",
+    "subject": "Bitácora diaria — MXCD11 — 30 jul 2026",
+    "body": "Actividades realizadas:\nRecorrido e infraestructura:\n\n- Se realizó el recorrido inicial en mesas operativas y esferas; se identificó que la pantalla de Finger 2 no mostraba información y se procedió a realizar el ajuste correspondiente.\n\n- Se atendió un reporte en la sala de Outbound (OB) por falla en el encendido de la pantalla, detectando que se encontraba desconectada del UPS.\n\nMantenimiento y resguardo de equipos:\n\nActivos Fijos (AF):\n-Se revisaron las impresoras con fallas de detección por parte de las HH y se retiró temporalmente la seguridad para ejecutar las pruebas correspondientes.\n- Se continuó con la limpieza y retiro de etiquetas adheridas en impresoras.\n- Se organizó el espacio en AF para la instalación de mesas operativas y se colocaron 2 monitores trasladados desde el MDF, actualizando su estatus en el Inventario y en Arturito.\nEquipos dañados:\n- Se recolectó una unidad HH con el display dañado y se trasladó a resguardo en el MDF.\n\nSoporte y gestión:\n- Se brindó soporte a un usuario con la configuración de Google Chat.\n- Se registraron los nuevos tickets en GitHub y se procedió con el cierre de las incidencias resueltas.\n\nPendientes:\nRetiro de impresora: Recoger la impresora con ticket asignado y actualizar la información de estatus tanto en Arturito como en el Inventario.\n\nProceso de salida de activos:\n- Para retirar cualquier activo de la operación hacia el MDF, se debe notificar previamente vía correo a los siguientes destinatarios:\n\next_leiangel@mercadolibre.com.mx\nsecurity_mx911@mercadolibre.com.mx",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785268330475,
     "threadId": "hilo_2026-07-28_1785268330460",
     "isReply": false,

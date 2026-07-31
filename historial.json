@@ -1,5 +1,18 @@
 [
   {
+    "id": 1785527884915,
+    "threadId": "hilo_2026-07-31_1785527884896",
+    "isReply": false,
+    "date": "31 jul 2026, 01:58 p.m.",
+    "isoDate": "2026-07-31T19:58:04.915Z",
+    "subject": "Bitácora diaria — MXCD11 — 31 jul 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como el seguimiento a los temas pendientes:\n\nActividades realizadas:\n\nRecorrido e infraestructura:\n- Se inició el turno realizando el recorrido inicial en mesas operativas y esferas.\n- Se verificó que todos los Fingers mostraran la información correctamente y que las pantallas Meet en salas de esferas estuvieran encendidas y operando sin novedad.\n\nGarantías e Inventarios:\n- Se actualizó en el Inventario y en Arturito el estatus de la impresora resguardada en el MDF para trámite de garantía.\n\nMantenimiento y atención en Activos Fijos (AF):\n- Se acudió a AF para revisar equipos reportados por ticket; se brindó mantenimiento correctivo a una impresora que presentaba fallas en la calidad de impresión.\n- Se realizó la limpieza general y remoción de adhesivo en el rodillo de los equipos que presentaban etiquetas pegadas.\n- Se apoyó a Edgar a instalar la impresora del cowork en su equipo\n\nProcesos masivos de configuración (Erick Avisai / Erick Crisostomo):\n- Se encendieron la totalidad de las impresoras resguardadas en AF (modelos ZT411 y ZQ521) para la aplicación masiva de una configuración enviada por Erick Crisostomo.\n- Se apoyó en la validación posterior de los equipos, retirando baterías y registrando el avance de cada unidad conforme finaliza el proceso.\n\nGestión de tickets e incidencias:\n- Se revisó la plataforma Jira, cerrando las solicitudes atendidas, y se registraron los eventos correspondientes en el GitHub de incidencias.\n- Se trabajó en proyecto personal\n\nPendientes:\nInsumos: Trasladar e ingresar el líquido limpiador (líquido naranja) a Activos Fijos (AF).\n\nQuedo a su disposición ante cualquier duda o comentario.\nSaludos cordiales,\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785441607189,
     "threadId": "hilo_2026-07-30_1785441607179",
     "isReply": false,

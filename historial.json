@@ -1,5 +1,18 @@
 [
   {
+    "id": 1785790569438,
+    "threadId": "hilo_2026-08-03_1785790569425",
+    "isReply": false,
+    "date": "03 ago 2026, 02:56 p.m.",
+    "isoDate": "2026-08-03T20:56:09.438Z",
+    "subject": "Bitácora diaria — MXCD11 — 03 ago 2026",
+    "body": "Hola team,\nLes comparto el resumen de las actividades realizadas durante el turno, así como los pendientes a los cuales se les dará seguimiento:\n\nActividades realizadas:\nRecorrido e infraestructura:\n- Se realizó el recorrido inicial en mesas operativas y esferas.\n\nMecanizada:\n- Se detectó que los Fingers 3 y 5 no mostraban información, por lo que se reinició la sesión de google en ambos equipos para restablecer la señal.\n\nEsferas:\n- Se verificó que el equipamiento en salas de reuniones se encuentra operando sin inconvenientes.\n\nSoporte y mantenimiento en Activos Fijos (AF):\n- Se dio atención a los equipos reportados vía ticket:\n\nHH:\n- Se corrigió un equipo que no cargaba el Hub mediante la reinstalación del perfil de Sauron, quedando totalmente funcional.\n\nImpresoras:\n- Se realizó mantenimiento preventivo de 3 impresoras que se encontraban sucias y con guia pegada en el rollo\n\nGestión de equipos inactivos:\n- A solicitud de Erick, se identificaron y encendieron los equipos con más de 5 días de inactividad para su actualización en mdm.\n\nPendientes:\nRevisión de impresoras:\n- Continuar con la inspección y diagnóstico de las impresoras apartadas durante el 3er turno.\n\nEncendido de Laptops:\n- Completar el encendido de las laptops que cuentan con más de 5 días apagadas para garantizar sus actualizaciones.\n\nQuedo a su disposición ante cualquier duda o comentario.\nSaludos cordiales,\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785527884915,
     "threadId": "hilo_2026-07-31_1785527884896",
     "isReply": false,

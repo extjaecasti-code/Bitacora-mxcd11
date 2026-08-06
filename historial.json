@@ -1,5 +1,18 @@
 [
   {
+    "id": 1785987939946,
+    "threadId": "hilo_2026-08-06_1785987939935",
+    "isReply": false,
+    "date": "05 ago 2026, 09:45 p.m.",
+    "isoDate": "2026-08-06T03:45:39.946Z",
+    "subject": "Bitácora diaria — MXCD11 — 05 ago 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como los pendientes a los cuales se les dará seguimiento:\n\nActividades realizadas:\nSoporte a usuarios y conectividad:\n\nLoss Prevention (LH): Se apoyó a un usuario con problemas para iniciar sesión en la VPN; la falla se solucionó tras reiniciar el equipo.\n\nIngeniería de Planta (IP): Se asistió al jefe de IP en la instalación de su perfil de trabajo en el celular.\n\nLíderes de equipo (TL): Se entregó equipo a un TL tras resolver un bloqueo de inicio de sesión (login).\n\nSesiones de alineación e incidentes masivos:\n\nSe asistió a la reunión en salas de esferas con el equipo de Positivo+.\n\nIncidencia en YMS: LP reportó una nueva falla en el sistema YMS. Se escaló el reporte y se confirmó que se trataba de un evento regional. Se dio seguimiento mediante la videollamada de monitoreo hasta la solución completa del servicio (aprox. 6:30 p.m.).\n\nRecorrido e infraestructura:\n\nDurante el recorrido de supervisión, se detectó que los Fingers 1 y 4 no mostrababan información, por lo que se reinició sesión en ambos equipos para restablecer la señal.\n\nSe organizó el acomodo del material e insumos recién llegados en el rack.\n\nGarantías e Inventario (Dataware):\n\nSe atendió al proveedor Dataware: se recibieron 2 equipos retornados de garantía y se entregaron 3 equipos defectuosos para trámite de reparación.\n\nSe registraron los cambios en el sistema de Inventario y en Arturito, procesando la apertura y cierre de los tickets asociados.\n\nPendientes:\nGarantías: Cerrar los tickets correspondientes a los equipos que ingresaron de garantía.\n\nOrganización: Realizar la limpieza y orden del área de racks.\n\nQuedo a su disposición ante cualquier duda o comentario.\n\nSaludos cordiales,\n\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785814111604,
     "threadId": "hilo_2026-08-04_1785814111597",
     "isReply": false,

@@ -1,5 +1,18 @@
 [
   {
+    "id": 1786073669354,
+    "threadId": "hilo_2026-08-07_1786073669346",
+    "isReply": false,
+    "date": "06 ago 2026, 09:34 p.m.",
+    "isoDate": "2026-08-07T03:34:29.354Z",
+    "subject": "Bitácora diaria — MXCD11 — 06 ago 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como el seguimiento a los temas pendientes:\n\nActividades realizadas:\nRecorrido e infraestructura:\n\nSe inició la jornada realizando el recorrido en esferas y Fingers, confirmando que la totalidad de los equipos opera con normalidad.\n\nSe acudió a Outbound (OB) para atender e inspeccionar reportes sobre intermitencias en la red.\n\nMantenimiento y soporte técnico en Activos Fijos (AF):\n\nSe revisó una miniprinter Zebra con fallas de conectividad a la red.\n\nSe atendieron 2 unidades HH: una con problemas de conexión a red y otra que presentaba fallo al ejecutar la función de Enter durante el escaneo.\n\nSe solicitó al equipo de AF la separación de 10 unidades HH requeridas para la operación del próximo lunes.\n\nControl de Cambios (CC) e implementación:\n\nSe acompañó a Erick durante el proceso de Control de Cambios.\n\nPosterior a la ejecución del CC, se realizó la validación de conectividad y desempeño en los equipos clasificados en Fase 2.\n\nSoporte a usuarios y áreas operativas:\n\nICQA: Se brindó apoyo con una impresora que presentaba fallas en el encendido; tras reiniciar el equipo y efectuar pruebas, quedó operando correctamente.\n\nInbound (IB): Se asistió a Daniel (TL de IB) en la vinculación y configuración de las impresoras de su área a su equipo de trabajo.\n\nPendientes:\nRevisión de equipos HH: Validar, probar y confirmar el correcto funcionamiento de las 10 HH previamente separadas por Activos Fijos (AF).\n\nQuedo a su disposición ante cualquier duda o comentario.\n\nSaludos cordiales,\n\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1785987939946,
     "threadId": "hilo_2026-08-06_1785987939935",
     "isReply": false,

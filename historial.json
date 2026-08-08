@@ -1,5 +1,18 @@
 [
   {
+    "id": 1786160331498,
+    "threadId": "hilo_2026-08-08_1786160331490",
+    "isReply": false,
+    "date": "07 ago 2026, 09:38 p.m.",
+    "isoDate": "2026-08-08T03:38:51.498Z",
+    "subject": "Bitácora diaria — MXCD11 — 07 ago 2026",
+    "body": "Hola team,\n\nLes comparto el resumen de las actividades realizadas durante el turno, así como el seguimiento a los temas pendientes:\n\nActividades realizadas:\nCoordinación y capacitaciones:\n\nSe acudió a Activos Fijos (AF) con Luis para revisar y dar seguimiento a los temas pendientes del área.\n\nSe impartió la sesión de Onboarding junto con Training para el personal de nuevo ingreso.\n\nRecorrido e infraestructura:\n\nDurante el recorrido por esferas y Fingers, se detectó que una pantalla de sala en esferas no daba imagen, y que 2 Fingers no mostraban la información correspondiente; se realizaron las correcciones para restablecer el servicio.\n\nAuditorías de equipos:\n\nSe dio inicio a la jornada de auditorías en Logística Inversa (LI), completando el proceso al 100% en las mesas de esa área.\n\nSe logró un avance significativo en la auditoría de los equipos resguardados en Activos Fijos (AF).\n\nSoporte técnico y atención a áreas:\n\nICQA (Cubiscan): Se brindó soporte con la báscula Cubiscan debido a que la página se cerraba al intentar calibrar. Tras consultar con Soporte N1 de otros sites, se actualizó Google Chrome y se indicó al usuario mantener la ventana del Cubiscan en primer plano al realizar las mediciones.\n\nIngeniería de Planta (IP): Se acudió a realizar el reemplazo de tóner en su impresora.\n\nSoporte general: Se apoyó a un usuario con la instalación y configuración de su perfil de trabajo.\n\nPendientes:\nAuditorías: Continuar con el proceso de auditoría de equipos en los módulos y áreas faltantes.\n\nQuedo a su disposición ante cualquier duda o comentario.\n\nSaludos cordiales,\n\nAndre Jael Castillo Diaz",
+    "recipients": [
+      "erick.crisostomosanchez@mercadolibre.com.mx",
+      "erick.nunezloza@mercadolibre.com.mx"
+    ]
+  },
+  {
     "id": 1786073669354,
     "threadId": "hilo_2026-08-07_1786073669346",
     "isReply": false,
